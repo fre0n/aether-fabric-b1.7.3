@@ -10,6 +10,7 @@
     "LivingEntityMixin",
     "PlayerMixin",
     "TorchMixin",
+	"WorldMixin",
     "access.EntityAccessor",
     "access.LivingEntityAccessor",
     "access.PlayerEntityAccessor",
