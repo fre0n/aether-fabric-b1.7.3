@@ -11,6 +11,7 @@ public class QuicksoilGlass extends TemplateTranslucentBlock {
     public QuicksoilGlass(Identifier blockID) {
         super(blockID, 0, Material.GLASS, false);
         this.slipperiness = 1.05F;
+        setLuminance(14);
     }
 
     public int getDroppedItemCount(Random random) {
